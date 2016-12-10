@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		02957961C8D5E5D9D3CDA296 /* Pods_OKActiveButton_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F00EAA44805A4B943C6CC1F /* Pods_OKActiveButton_Tests.framework */; };
 		4237ACA90885C996DE636CCA /* Pods_OKActiveButton_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBB2CC06B109940835345E5 /* Pods_OKActiveButton_Example.framework */; };
+		4FFBB0731DFBF89A00E529AC /* Demo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FFBB0721DFBF89A00E529AC /* Demo.storyboard */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,7 +23,6 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +40,7 @@
 		3BBB2CC06B109940835345E5 /* Pods_OKActiveButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OKActiveButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D407CE2E72CABAA7BEE1581 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		43602707043686EB8F9AB87F /* OKActiveButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OKActiveButton.podspec; path = ../OKActiveButton.podspec; sourceTree = "<group>"; };
+		4FFBB0721DFBF89A00E529AC /* Demo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Demo.storyboard; sourceTree = "<group>"; };
 		5421A37B730376B8AEDE9C96 /* Pods-OKActiveButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OKActiveButton_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OKActiveButton_Tests/Pods-OKActiveButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* OKActiveButton_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OKActiveButton_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,7 +62,6 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		7F00EAA44805A4B943C6CC1F /* Pods_OKActiveButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OKActiveButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8FD48F192408F1DE09BA3C45 /* Pods-OKActiveButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OKActiveButton_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-OKActiveButton_Example/Pods-OKActiveButton_Example.release.xcconfig"; sourceTree = "<group>"; };
 		951A872B2BE2E8775D1CB579 /* Pods-OKActiveButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OKActiveButton_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OKActiveButton_Tests/Pods-OKActiveButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9C5E2354971D427A438EB04F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -143,9 +143,9 @@
 			children = (
 				6003F59C195388D20070C39A /* OKAppDelegate.h */,
 				6003F59D195388D20070C39A /* OKAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* OKViewController.h */,
 				6003F5A6195388D20070C39A /* OKViewController.m */,
+				4FFBB0721DFBF89A00E529AC /* Demo.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -276,9 +276,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				4FFBB0731DFBF89A00E529AC /* Demo.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,9 +516,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OKActiveButton/OKActiveButton-Prefix.pch";
 				INFOPLIST_FILE = "OKActiveButton/OKActiveButton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -532,9 +534,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OKActiveButton/OKActiveButton-Prefix.pch";
 				INFOPLIST_FILE = "OKActiveButton/OKActiveButton-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -22,7 +22,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    
 }
 
 - (IBAction)button:(id)sender {
@@ -40,6 +41,9 @@
     button.gradientHidden = !sender.on;
 }
 
+- (IBAction)switchEnabled:(UISwitch *)sender {
+    button.enabled = sender.on;
+}
 
 
 - (void)didReceiveMemoryWarning

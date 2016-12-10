@@ -85,7 +85,7 @@
     __enabled = enabled;
     [super setEnabled:enabled];
     [UIView animateWithDuration:0.25 animations:^{
-        self.activityView.alpha = enabled? 1.0:0.0;
+        self.alpha = enabled? 1.0:0.5;
     }];
     
     if (!_shadowHidden) {
