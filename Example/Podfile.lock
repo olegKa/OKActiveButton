@@ -1,0 +1,16 @@
+PODS:
+  - OKActiveButton (0.1.0)
+
+DEPENDENCIES:
+  - OKActiveButton (from `../`)
+
+EXTERNAL SOURCES:
+  OKActiveButton:
+    :path: ../
+
+SPEC CHECKSUMS:
+  OKActiveButton: 602f7345fd7c21b45a578d3ca85be1be26920a12
+
+PODFILE CHECKSUM: e3f9581e47e0040f1562a91cf52c2bef72ac5afc
+
+COCOAPODS: 1.1.1

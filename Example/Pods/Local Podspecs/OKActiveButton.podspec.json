@@ -1,0 +1,22 @@
+{
+  "name": "OKActiveButton",
+  "version": "0.1.0",
+  "summary": "A short description of OKActiveButton.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/OKActiveButton",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "olegKa": "kalinin_oleg@list.ru"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/OKActiveButton.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "OKActiveButton/Classes/**/*"
+}

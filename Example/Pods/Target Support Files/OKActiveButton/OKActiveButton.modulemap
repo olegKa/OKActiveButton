@@ -1,0 +1,6 @@
+framework module OKActiveButton {
+  umbrella header "OKActiveButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

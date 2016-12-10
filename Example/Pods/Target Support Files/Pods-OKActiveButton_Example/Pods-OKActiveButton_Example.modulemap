@@ -1,0 +1,6 @@
+framework module Pods_OKActiveButton_Example {
+  umbrella header "Pods-OKActiveButton_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
