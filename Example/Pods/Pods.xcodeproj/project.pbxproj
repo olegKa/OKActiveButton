@@ -8,76 +8,115 @@
 
 /* Begin PBXBuildFile section */
 		0D4E1A76998A729944EA5BFDCC64DE29 /* Pods-OKActiveButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 717DF575C47DBEB719E35DD5B5678C6A /* Pods-OKActiveButton_Tests-dummy.m */; };
-		17911D0DCE2E930184849B7CB38817A6 /* OKActiveButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFDFABBFBE14353297D1FC2F735B296A /* OKActiveButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		630E95A4CDD6DE01CD9D08017859CF10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		7746127AAAE4A91AFC571F1984F7B2CD /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6856C2FB18B17A99438DBD7A60F930 /* ReplaceMe.m */; };
-		7F7C6BA4E8EC0A0D5C29F3DC2699CB49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		8073E20980511A23D27DB2E540D79296 /* OKActiveButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BC4F73D25F388FE4AF176EB224FD67 /* OKActiveButton-dummy.m */; };
-		C9CC6CAEDC7F8240CEA4DBD152172151 /* Pods-OKActiveButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCE851399A497A5DE33229B42312601 /* Pods-OKActiveButton_Example-dummy.m */; };
-		D8F63A85698F63B9369BC1DA46DD29BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		EFE4CC2E12F2C91004C9CE80CBFCAA74 /* Pods-OKActiveButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0611E10650678F5A1BCF54AC60EA4607 /* Pods-OKActiveButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14FC584FA119AAEDD7E4C2208FB8A526 /* OKActiveButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 52569A349B4E833C747040D9C4972888 /* OKActiveButton.m */; };
+		16B181E16B9A035476D7D2349E009138 /* OKActiveButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFDFABBFBE14353297D1FC2F735B296A /* OKActiveButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D713276404AFAB39FB16A5E813E5088 /* OKActiveButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BC4F73D25F388FE4AF176EB224FD67 /* OKActiveButton-dummy.m */; };
+		2A8A562D208E614F513FF54EE6FE5DB9 /* CAHorizontalGradientLayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B42CEB3A4D51819DEBBE1395F51D2F /* CAHorizontalGradientLayer-dummy.m */; };
+		3354C0FE7FF913919E39FAC9B6AF25E5 /* CAHorizontalGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD11B3185FE8845B57D6680DEA69DC7 /* CAHorizontalGradientLayer.m */; };
+		3DD645CFA084AE0A922851B6A54AC4E7 /* CAHorizontalGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = A725E08F0D78B6781F5096A50A6980CA /* CAHorizontalGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4570DA61F4945E88D32B03B65C8E09F4 /* OKActiveButton+Gradient.m in Sources */ = {isa = PBXBuildFile; fileRef = E37908A131D469D7280BE1A99B297322 /* OKActiveButton+Gradient.m */; };
+		4C070735458841C6A8C4C0B70CD6271E /* CAHorizontalGradientLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4611C86F6B01E9427C34519A456DD7 /* CAHorizontalGradientLayer.framework */; };
+		550A946E76F03438A7245294204F9AE6 /* OKActiveButton.h in Headers */ = {isa = PBXBuildFile; fileRef = ECF1A98EDD1BACDFA406D444EDFA5ADD /* OKActiveButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58A2556B8742D196EAF7157E8AD56D42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BECAEC39E926AA2147FE4E6F2D19AA7A /* Foundation.framework */; };
+		630E95A4CDD6DE01CD9D08017859CF10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BECAEC39E926AA2147FE4E6F2D19AA7A /* Foundation.framework */; };
+		86A6C7DE817A12C35CBAF36E80DB534D /* OKActiveButton+Gradient.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E93E2D97EF3BC28FBE5676D8D205D51 /* OKActiveButton+Gradient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2460FC4ACEB753641B2C437A3070669 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BECAEC39E926AA2147FE4E6F2D19AA7A /* Foundation.framework */; };
+		B6F0B1484861B175E8AEB4945C15EAAF /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2345178933679E4545758DF570530 /* ReplaceMe.m */; };
+		DE25628D576667E089AA8AC545BA9F6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BECAEC39E926AA2147FE4E6F2D19AA7A /* Foundation.framework */; };
+		E24AD3C2D15ADBF125F720844FCB18F7 /* Pods-OKActiveButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDCE851399A497A5DE33229B42312601 /* Pods-OKActiveButton_Example-dummy.m */; };
+		E3162DD7B631765B4C75BF58E153E5EB /* Pods-OKActiveButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0611E10650678F5A1BCF54AC60EA4607 /* Pods-OKActiveButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6DF0DF901D6F37D135ABE5C93C5E9F1 /* CAHorizontalGradientLayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5346635242CBCE67D6BE519941649FB6 /* CAHorizontalGradientLayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBF7C252DE0FB1FE65BF75B162EBAA73 /* Pods-OKActiveButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2663A3D01CCECB09CCBFC84A714C8D7 /* Pods-OKActiveButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A878B25D37D28B1898A7AFFD6F53EFE1 /* PBXContainerItemProxy */ = {
+		1A4D3830E39483A10DA0FCF3541BBA80 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CD8F9F572801EE69460D668417BC2BF9;
+			remoteGlobalIDString = 9E26353AE1179F7877CBA2BE9AD3295F;
 			remoteInfo = OKActiveButton;
+		};
+		2BB480BBFA55F15B8FEDE76645895074 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD26C1E93151F79B0E593A811931AE42;
+			remoteInfo = CAHorizontalGradientLayer;
+		};
+		E2AD72ADB2B5ED3E88C86C26D4AFB71F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD26C1E93151F79B0E593A811931AE42;
+			remoteInfo = CAHorizontalGradientLayer;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		05C97A05809323CBBE2EFDD2BDFA2650 /* Pods-OKActiveButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OKActiveButton_Example-resources.sh"; sourceTree = "<group>"; };
 		0611E10650678F5A1BCF54AC60EA4607 /* Pods-OKActiveButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OKActiveButton_Example-umbrella.h"; sourceTree = "<group>"; };
-		0C27614119292C15F05013F661972EA8 /* Pods_OKActiveButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OKActiveButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FBEBC7B1B5AAA4AC4B694B6B76D7551 /* Pods-OKActiveButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OKActiveButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1210F32A940F0A50A0E20E9DA45CA01C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1E1CB51E8EAB0BA398791420335B4FD4 /* Pods_OKActiveButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OKActiveButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1938C8B9A0837B2918E2215A5B95DC6A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19AAD7443AA52E23037FB84B223B63CB /* OKActiveButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OKActiveButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2616F1C5B9AD9E3E7AAE307197AF8C31 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37E2345178933679E4545758DF570530 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = CAHorizontalGradientLayer/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		3E93E2D97EF3BC28FBE5676D8D205D51 /* OKActiveButton+Gradient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OKActiveButton+Gradient.h"; sourceTree = "<group>"; };
 		3F5089DE953918E44832A813A89ED7BE /* Pods-OKActiveButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OKActiveButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		43B42CEB3A4D51819DEBBE1395F51D2F /* CAHorizontalGradientLayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CAHorizontalGradientLayer-dummy.m"; sourceTree = "<group>"; };
+		466F368D375EDC5C95723A8A879AA0AC /* CAHorizontalGradientLayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CAHorizontalGradientLayer.modulemap; sourceTree = "<group>"; };
 		4DB2BD13C0594F2B884B2DD5D88FD369 /* Pods-OKActiveButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OKActiveButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		52569A349B4E833C747040D9C4972888 /* OKActiveButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OKActiveButton.m; sourceTree = "<group>"; };
+		5346635242CBCE67D6BE519941649FB6 /* CAHorizontalGradientLayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CAHorizontalGradientLayer-umbrella.h"; sourceTree = "<group>"; };
 		54A6937689F15939E4BC9C7F0A28D3F3 /* OKActiveButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = OKActiveButton.modulemap; sourceTree = "<group>"; };
 		54AC4510351881B79468E5430C1C072F /* Pods-OKActiveButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OKActiveButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		59A6181212B2C22091E8820685039E32 /* Pods-OKActiveButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OKActiveButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		6962DFAA65B74110C7A5BD11FA766AAE /* OKActiveButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OKActiveButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		717DF575C47DBEB719E35DD5B5678C6A /* Pods-OKActiveButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OKActiveButton_Tests-dummy.m"; sourceTree = "<group>"; };
 		71E062783B7F391678793F805E541C88 /* Pods-OKActiveButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-OKActiveButton_Tests.modulemap"; sourceTree = "<group>"; };
 		77A5FED11F38BA438318B3307628AE43 /* Pods-OKActiveButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OKActiveButton_Tests-resources.sh"; sourceTree = "<group>"; };
 		7D6198DC622F4E7BECC011696F5DAFB9 /* Pods-OKActiveButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-OKActiveButton_Example.modulemap"; sourceTree = "<group>"; };
+		8B4611C86F6B01E9427C34519A456DD7 /* CAHorizontalGradientLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CAHorizontalGradientLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EAB3F92BEBD1790D83A897C018ACF76 /* Pods_OKActiveButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OKActiveButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6C7B5F95907B3017FB80A86EF134079 /* Pods-OKActiveButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OKActiveButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A725E08F0D78B6781F5096A50A6980CA /* CAHorizontalGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CAHorizontalGradientLayer.h; path = CAHorizontalGradientLayer/Classes/CAHorizontalGradientLayer.h; sourceTree = "<group>"; };
+		BBB4BEB12582BA67D19A9AB8A1B55B85 /* CAHorizontalGradientLayer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CAHorizontalGradientLayer.xcconfig; sourceTree = "<group>"; };
+		BECAEC39E926AA2147FE4E6F2D19AA7A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BEE5E9C0366020BFAD768280AAEFFA27 /* Pods_OKActiveButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OKActiveButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF11FB8FCE625A5D8789B471F601677F /* OKActiveButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OKActiveButton-prefix.pch"; sourceTree = "<group>"; };
 		BFDFABBFBE14353297D1FC2F735B296A /* OKActiveButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OKActiveButton-umbrella.h"; sourceTree = "<group>"; };
 		C2663A3D01CCECB09CCBFC84A714C8D7 /* Pods-OKActiveButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OKActiveButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C448BB5431A8FDED82CF03F4EF5D8395 /* CAHorizontalGradientLayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CAHorizontalGradientLayer-prefix.pch"; sourceTree = "<group>"; };
 		C70C48022A9585CDB457111F74358889 /* Pods-OKActiveButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OKActiveButton_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CB047438BF4BA328B6F900FAEE8E5FF3 /* OKActiveButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OKActiveButton.xcconfig; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CDCE851399A497A5DE33229B42312601 /* Pods-OKActiveButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OKActiveButton_Example-dummy.m"; sourceTree = "<group>"; };
+		CDD11B3185FE8845B57D6680DEA69DC7 /* CAHorizontalGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CAHorizontalGradientLayer.m; path = CAHorizontalGradientLayer/Classes/CAHorizontalGradientLayer.m; sourceTree = "<group>"; };
+		DBC0A5D9A098EADE8D4EA39276DBA87F /* CAHorizontalGradientLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CAHorizontalGradientLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF7291AAF2F2CC9D6602773FD9FB9A6F /* Pods-OKActiveButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OKActiveButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E26CB79A184E05A023F746003FF17369 /* Pods-OKActiveButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OKActiveButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E37908A131D469D7280BE1A99B297322 /* OKActiveButton+Gradient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OKActiveButton+Gradient.m"; sourceTree = "<group>"; };
+		ECF1A98EDD1BACDFA406D444EDFA5ADD /* OKActiveButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OKActiveButton.h; sourceTree = "<group>"; };
 		F39550FD4902EB8577F0112BE5CB5A64 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F8BC4F73D25F388FE4AF176EB224FD67 /* OKActiveButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OKActiveButton-dummy.m"; sourceTree = "<group>"; };
-		FB6856C2FB18B17A99438DBD7A60F930 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		FEAF9D9686292EC41FE51EA7D07A8CEE /* Pods-OKActiveButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OKActiveButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2EE528034ACCCC7E955F4492B6CA79C4 /* Frameworks */ = {
+		56D35AABAE7D7B98905CF621AF1C44C4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F7C6BA4E8EC0A0D5C29F3DC2699CB49 /* Foundation.framework in Frameworks */,
+				4C070735458841C6A8C4C0B70CD6271E /* CAHorizontalGradientLayer.framework in Frameworks */,
+				DE25628D576667E089AA8AC545BA9F6B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		30990CD76BA1E0DCFFC3EC93D8094A86 /* Frameworks */ = {
+		B66B89C3D39D709636C594DD412E0501 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8F63A85698F63B9369BC1DA46DD29BD /* Foundation.framework in Frameworks */,
+				B2460FC4ACEB753641B2C437A3070669 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,9 +128,63 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CE9DA11CB7DF758746C0188C89CBB1B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58A2556B8742D196EAF7157E8AD56D42 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2272B8491A36C59D5C57BFE857D49E3C /* CAHorizontalGradientLayer */ = {
+			isa = PBXGroup;
+			children = (
+				A725E08F0D78B6781F5096A50A6980CA /* CAHorizontalGradientLayer.h */,
+				CDD11B3185FE8845B57D6680DEA69DC7 /* CAHorizontalGradientLayer.m */,
+				37E2345178933679E4545758DF570530 /* ReplaceMe.m */,
+				9FF07E8870FD2FA0CE60426D02D8E233 /* Support Files */,
+			);
+			path = CAHorizontalGradientLayer;
+			sourceTree = "<group>";
+		};
+		3384B876DBBDE3D19866D42FEAF1105F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ECF1A98EDD1BACDFA406D444EDFA5ADD /* OKActiveButton.h */,
+				52569A349B4E833C747040D9C4972888 /* OKActiveButton.m */,
+				3E93E2D97EF3BC28FBE5676D8D205D51 /* OKActiveButton+Gradient.h */,
+				E37908A131D469D7280BE1A99B297322 /* OKActiveButton+Gradient.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		39E6A154A5E07779FDD9295AE08DD723 /* OKActiveButton */ = {
+			isa = PBXGroup;
+			children = (
+				3384B876DBBDE3D19866D42FEAF1105F /* Classes */,
+			);
+			path = OKActiveButton;
+			sourceTree = "<group>";
+		};
+		53D8BEED954C39BF359AF28D9F4DD892 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BECAEC39E926AA2147FE4E6F2D19AA7A /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5E0E95193F93F014518ECD2F7B769A4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2272B8491A36C59D5C57BFE857D49E3C /* CAHorizontalGradientLayer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		673307D5E85ADD5A7548266B2B91190D /* Pods-OKActiveButton_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,31 +203,30 @@
 			path = "Target Support Files/Pods-OKActiveButton_Tests";
 			sourceTree = "<group>";
 		};
-		733F0767177C0F4DF6AD4EF506EB254B /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				FB6856C2FB18B17A99438DBD7A60F930 /* ReplaceMe.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				F900D275802304A84DA1F7303DBABC9C /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				C6E4CF41102DB4851DEB3BDB5A97BB37 /* Products */,
+				DC72834D315322F29C078A118FF5F54D /* Frameworks */,
+				5E0E95193F93F014518ECD2F7B769A4D /* Pods */,
+				E0AC0C1F7AF61BCFEDFA1B8AFBBA26DF /* Products */,
 				B0A6C468C8DC0D3F760B179EC8808713 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		9FF07E8870FD2FA0CE60426D02D8E233 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				466F368D375EDC5C95723A8A879AA0AC /* CAHorizontalGradientLayer.modulemap */,
+				BBB4BEB12582BA67D19A9AB8A1B55B85 /* CAHorizontalGradientLayer.xcconfig */,
+				43B42CEB3A4D51819DEBBE1395F51D2F /* CAHorizontalGradientLayer-dummy.m */,
+				C448BB5431A8FDED82CF03F4EF5D8395 /* CAHorizontalGradientLayer-prefix.pch */,
+				5346635242CBCE67D6BE519941649FB6 /* CAHorizontalGradientLayer-umbrella.h */,
+				1938C8B9A0837B2918E2215A5B95DC6A /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CAHorizontalGradientLayer";
 			sourceTree = "<group>";
 		};
 		B0A6C468C8DC0D3F760B179EC8808713 /* Targets Support Files */ = {
@@ -144,32 +236,6 @@
 				673307D5E85ADD5A7548266B2B91190D /* Pods-OKActiveButton_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		BC1B7B2A34E913EB280F74D3031F6E0E /* OKActiveButton */ = {
-			isa = PBXGroup;
-			children = (
-				733F0767177C0F4DF6AD4EF506EB254B /* Classes */,
-			);
-			path = OKActiveButton;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C6E4CF41102DB4851DEB3BDB5A97BB37 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6962DFAA65B74110C7A5BD11FA766AAE /* OKActiveButton.framework */,
-				0C27614119292C15F05013F661972EA8 /* Pods_OKActiveButton_Example.framework */,
-				1E1CB51E8EAB0BA398791420335B4FD4 /* Pods_OKActiveButton_Tests.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		C9C790E5ADE6362FF091E05A18FA887C /* Support Files */ = {
@@ -207,11 +273,31 @@
 		D54570CCDCDD606232CB78110FD835C2 /* OKActiveButton */ = {
 			isa = PBXGroup;
 			children = (
-				BC1B7B2A34E913EB280F74D3031F6E0E /* OKActiveButton */,
+				39E6A154A5E07779FDD9295AE08DD723 /* OKActiveButton */,
 				C9C790E5ADE6362FF091E05A18FA887C /* Support Files */,
 			);
 			name = OKActiveButton;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		DC72834D315322F29C078A118FF5F54D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B4611C86F6B01E9427C34519A456DD7 /* CAHorizontalGradientLayer.framework */,
+				53D8BEED954C39BF359AF28D9F4DD892 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0AC0C1F7AF61BCFEDFA1B8AFBBA26DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBC0A5D9A098EADE8D4EA39276DBA87F /* CAHorizontalGradientLayer.framework */,
+				19AAD7443AA52E23037FB84B223B63CB /* OKActiveButton.framework */,
+				9EAB3F92BEBD1790D83A897C018ACF76 /* Pods_OKActiveButton_Example.framework */,
+				BEE5E9C0366020BFAD768280AAEFFA27 /* Pods_OKActiveButton_Tests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		F900D275802304A84DA1F7303DBABC9C /* Development Pods */ = {
@@ -225,11 +311,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3E4BF46580A8EB63205CF82ECDBB9F17 /* Headers */ = {
+		0C9EBE26EFB60DBB2704E9ABC6929B51 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17911D0DCE2E930184849B7CB38817A6 /* OKActiveButton-umbrella.h in Headers */,
+				86A6C7DE817A12C35CBAF36E80DB534D /* OKActiveButton+Gradient.h in Headers */,
+				16B181E16B9A035476D7D2349E009138 /* OKActiveButton-umbrella.h in Headers */,
+				550A946E76F03438A7245294204F9AE6 /* OKActiveButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		116699DBB35CC642700DD115CAF248F9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3162DD7B631765B4C75BF58E153E5EB /* Pods-OKActiveButton_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,50 +337,70 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB334A7552BD5876413FED82D4BA3489 /* Headers */ = {
+		9B3F737381A41427750566BF674671D2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFE4CC2E12F2C91004C9CE80CBFCAA74 /* Pods-OKActiveButton_Example-umbrella.h in Headers */,
+				F6DF0DF901D6F37D135ABE5C93C5E9F1 /* CAHorizontalGradientLayer-umbrella.h in Headers */,
+				3DD645CFA084AE0A922851B6A54AC4E7 /* CAHorizontalGradientLayer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6C9E65063453D7BA05DF62D8C0FE711E /* Pods-OKActiveButton_Example */ = {
+		9D10C6E96A950614DA2CE087A364818B /* Pods-OKActiveButton_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1CD87F25A4C1114610FD54035FC128E /* Build configuration list for PBXNativeTarget "Pods-OKActiveButton_Example" */;
+			buildConfigurationList = A382BED6E2895D59975E79E3FF0B7407 /* Build configuration list for PBXNativeTarget "Pods-OKActiveButton_Example" */;
 			buildPhases = (
-				37B2AA9C9B812260238ADAFEA21855DC /* Sources */,
-				30990CD76BA1E0DCFFC3EC93D8094A86 /* Frameworks */,
-				BB334A7552BD5876413FED82D4BA3489 /* Headers */,
+				36EA640E1251855B9B357653CD81979D /* Sources */,
+				B66B89C3D39D709636C594DD412E0501 /* Frameworks */,
+				116699DBB35CC642700DD115CAF248F9 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8A925E324E911F6B69F618057487362A /* PBXTargetDependency */,
+				E31797C50F7EB1D7E6891B715EAB0108 /* PBXTargetDependency */,
+				5E3600C147059DC73FB92F35FC0F4A7E /* PBXTargetDependency */,
 			);
 			name = "Pods-OKActiveButton_Example";
 			productName = "Pods-OKActiveButton_Example";
-			productReference = 0C27614119292C15F05013F661972EA8 /* Pods_OKActiveButton_Example.framework */;
+			productReference = 9EAB3F92BEBD1790D83A897C018ACF76 /* Pods_OKActiveButton_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CD8F9F572801EE69460D668417BC2BF9 /* OKActiveButton */ = {
+		9E26353AE1179F7877CBA2BE9AD3295F /* OKActiveButton */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 56F990F638B13E21485214F54F8442E8 /* Build configuration list for PBXNativeTarget "OKActiveButton" */;
+			buildConfigurationList = 1C6BB53579E1C6DDEE3A8B5279492407 /* Build configuration list for PBXNativeTarget "OKActiveButton" */;
 			buildPhases = (
-				B397D7C0BFBF2E580A62B911F675E901 /* Sources */,
-				2EE528034ACCCC7E955F4492B6CA79C4 /* Frameworks */,
-				3E4BF46580A8EB63205CF82ECDBB9F17 /* Headers */,
+				921F1382D23521D248CAF6F6F648986F /* Sources */,
+				56D35AABAE7D7B98905CF621AF1C44C4 /* Frameworks */,
+				0C9EBE26EFB60DBB2704E9ABC6929B51 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88607B9BAB321A8F24ED269DBA37DF29 /* PBXTargetDependency */,
+			);
+			name = OKActiveButton;
+			productName = OKActiveButton;
+			productReference = 19AAD7443AA52E23037FB84B223B63CB /* OKActiveButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CD26C1E93151F79B0E593A811931AE42 /* CAHorizontalGradientLayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B1B79660C734C2964BC0717FE48D610 /* Build configuration list for PBXNativeTarget "CAHorizontalGradientLayer" */;
+			buildPhases = (
+				97987F28756205FE6B299D7046E77A36 /* Sources */,
+				CE9DA11CB7DF758746C0188C89CBB1B0 /* Frameworks */,
+				9B3F737381A41427750566BF674671D2 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = OKActiveButton;
-			productName = OKActiveButton;
-			productReference = 6962DFAA65B74110C7A5BD11FA766AAE /* OKActiveButton.framework */;
+			name = CAHorizontalGradientLayer;
+			productName = CAHorizontalGradientLayer;
+			productReference = DBC0A5D9A098EADE8D4EA39276DBA87F /* CAHorizontalGradientLayer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FB9E44F2298B0274376A85F21B189F66 /* Pods-OKActiveButton_Tests */ = {
@@ -301,7 +417,7 @@
 			);
 			name = "Pods-OKActiveButton_Tests";
 			productName = "Pods-OKActiveButton_Tests";
-			productReference = 1E1CB51E8EAB0BA398791420335B4FD4 /* Pods_OKActiveButton_Tests.framework */;
+			productReference = BEE5E9C0366020BFAD768280AAEFFA27 /* Pods_OKActiveButton_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -321,23 +437,24 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = C6E4CF41102DB4851DEB3BDB5A97BB37 /* Products */;
+			productRefGroup = E0AC0C1F7AF61BCFEDFA1B8AFBBA26DF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CD8F9F572801EE69460D668417BC2BF9 /* OKActiveButton */,
-				6C9E65063453D7BA05DF62D8C0FE711E /* Pods-OKActiveButton_Example */,
+				CD26C1E93151F79B0E593A811931AE42 /* CAHorizontalGradientLayer */,
+				9E26353AE1179F7877CBA2BE9AD3295F /* OKActiveButton */,
+				9D10C6E96A950614DA2CE087A364818B /* Pods-OKActiveButton_Example */,
 				FB9E44F2298B0274376A85F21B189F66 /* Pods-OKActiveButton_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		37B2AA9C9B812260238ADAFEA21855DC /* Sources */ = {
+		36EA640E1251855B9B357653CD81979D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9CC6CAEDC7F8240CEA4DBD152172151 /* Pods-OKActiveButton_Example-dummy.m in Sources */,
+				E24AD3C2D15ADBF125F720844FCB18F7 /* Pods-OKActiveButton_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,23 +466,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B397D7C0BFBF2E580A62B911F675E901 /* Sources */ = {
+		921F1382D23521D248CAF6F6F648986F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8073E20980511A23D27DB2E540D79296 /* OKActiveButton-dummy.m in Sources */,
-				7746127AAAE4A91AFC571F1984F7B2CD /* ReplaceMe.m in Sources */,
+				4570DA61F4945E88D32B03B65C8E09F4 /* OKActiveButton+Gradient.m in Sources */,
+				1D713276404AFAB39FB16A5E813E5088 /* OKActiveButton-dummy.m in Sources */,
+				14FC584FA119AAEDD7E4C2208FB8A526 /* OKActiveButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97987F28756205FE6B299D7046E77A36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A8A562D208E614F513FF54EE6FE5DB9 /* CAHorizontalGradientLayer-dummy.m in Sources */,
+				3354C0FE7FF913919E39FAC9B6AF25E5 /* CAHorizontalGradientLayer.m in Sources */,
+				B6F0B1484861B175E8AEB4945C15EAAF /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8A925E324E911F6B69F618057487362A /* PBXTargetDependency */ = {
+		5E3600C147059DC73FB92F35FC0F4A7E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = OKActiveButton;
-			target = CD8F9F572801EE69460D668417BC2BF9 /* OKActiveButton */;
-			targetProxy = A878B25D37D28B1898A7AFFD6F53EFE1 /* PBXContainerItemProxy */;
+			target = 9E26353AE1179F7877CBA2BE9AD3295F /* OKActiveButton */;
+			targetProxy = 1A4D3830E39483A10DA0FCF3541BBA80 /* PBXContainerItemProxy */;
+		};
+		88607B9BAB321A8F24ED269DBA37DF29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CAHorizontalGradientLayer;
+			target = CD26C1E93151F79B0E593A811931AE42 /* CAHorizontalGradientLayer */;
+			targetProxy = E2AD72ADB2B5ED3E88C86C26D4AFB71F /* PBXContainerItemProxy */;
+		};
+		E31797C50F7EB1D7E6891B715EAB0108 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CAHorizontalGradientLayer;
+			target = CD26C1E93151F79B0E593A811931AE42 /* CAHorizontalGradientLayer */;
+			targetProxy = 2BB480BBFA55F15B8FEDE76645895074 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -405,9 +545,40 @@
 			};
 			name = Debug;
 		};
-		5050F5D952528FE8CCC5C7F662AD7850 /* Debug */ = {
+		2B5A99D06E942059E1B8B9B464F633C4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB047438BF4BA328B6F900FAEE8E5FF3 /* OKActiveButton.xcconfig */;
+			baseConfigurationReference = BBB4BEB12582BA67D19A9AB8A1B55B85 /* CAHorizontalGradientLayer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CAHorizontalGradientLayer/CAHorizontalGradientLayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CAHorizontalGradientLayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CAHorizontalGradientLayer/CAHorizontalGradientLayer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CAHorizontalGradientLayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		37E3B86D81F93DB79A8E7DC2B9071B24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6C7B5F95907B3017FB80A86EF134079 /* Pods-OKActiveButton_Example.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -420,14 +591,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/OKActiveButton/OKActiveButton-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OKActiveButton/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-OKActiveButton_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OKActiveButton/OKActiveButton.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OKActiveButton_Example/Pods-OKActiveButton_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = OKActiveButton;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_OKActiveButton_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -436,7 +611,7 @@
 			};
 			name = Debug;
 		};
-		738BF3133D27079AE848372421A5980C /* Release */ = {
+		3B0566954120CBB8525E2264E5A6AD7E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C70C48022A9585CDB457111F74358889 /* Pods-OKActiveButton_Example.release.xcconfig */;
 			buildSettings = {
@@ -511,41 +686,6 @@
 			};
 			name = Release;
 		};
-		937399CFC2191487505F61D5F07E0A42 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A6C7B5F95907B3017FB80A86EF134079 /* Pods-OKActiveButton_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-OKActiveButton_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-OKActiveButton_Example/Pods-OKActiveButton_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_OKActiveButton_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -590,6 +730,37 @@
 			};
 			name = Debug;
 		};
+		CED66C284CAA9E56B901D697C129783A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB047438BF4BA328B6F900FAEE8E5FF3 /* OKActiveButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OKActiveButton/OKActiveButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OKActiveButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OKActiveButton/OKActiveButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = OKActiveButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		D98CDA74B367C6A698050D9AEF732885 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0FBEBC7B1B5AAA4AC4B694B6B76D7551 /* Pods-OKActiveButton_Tests.release.xcconfig */;
@@ -625,7 +796,7 @@
 			};
 			name = Release;
 		};
-		E9F6BE2B61DBFBCCD72B9375F2F330A5 /* Release */ = {
+		EA2986D9815F88B2913603867900940C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CB047438BF4BA328B6F900FAEE8E5FF3 /* OKActiveButton.xcconfig */;
 			buildSettings = {
@@ -656,9 +827,49 @@
 			};
 			name = Release;
 		};
+		F4FEBABE688841633EBDC6A06D60B2D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBB4BEB12582BA67D19A9AB8A1B55B85 /* CAHorizontalGradientLayer.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CAHorizontalGradientLayer/CAHorizontalGradientLayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CAHorizontalGradientLayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CAHorizontalGradientLayer/CAHorizontalGradientLayer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CAHorizontalGradientLayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1C6BB53579E1C6DDEE3A8B5279492407 /* Build configuration list for PBXNativeTarget "OKActiveButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED66C284CAA9E56B901D697C129783A /* Debug */,
+				EA2986D9815F88B2913603867900940C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -668,20 +879,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		56F990F638B13E21485214F54F8442E8 /* Build configuration list for PBXNativeTarget "OKActiveButton" */ = {
+		9B1B79660C734C2964BC0717FE48D610 /* Build configuration list for PBXNativeTarget "CAHorizontalGradientLayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5050F5D952528FE8CCC5C7F662AD7850 /* Debug */,
-				E9F6BE2B61DBFBCCD72B9375F2F330A5 /* Release */,
+				F4FEBABE688841633EBDC6A06D60B2D3 /* Debug */,
+				2B5A99D06E942059E1B8B9B464F633C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1CD87F25A4C1114610FD54035FC128E /* Build configuration list for PBXNativeTarget "Pods-OKActiveButton_Example" */ = {
+		A382BED6E2895D59975E79E3FF0B7407 /* Build configuration list for PBXNativeTarget "Pods-OKActiveButton_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				937399CFC2191487505F61D5F07E0A42 /* Debug */,
-				738BF3133D27079AE848372421A5980C /* Release */,
+				37E3B86D81F93DB79A8E7DC2B9071B24 /* Debug */,
+				3B0566954120CBB8525E2264E5A6AD7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

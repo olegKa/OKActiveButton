@@ -1,5 +1,7 @@
 PODS:
-  - OKActiveButton (0.1.0)
+  - CAHorizontalGradientLayer (0.1.0)
+  - OKActiveButton (0.1.0):
+    - CAHorizontalGradientLayer (~> 0.1.0)
 
 DEPENDENCIES:
   - OKActiveButton (from `../`)
@@ -9,7 +11,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  OKActiveButton: 602f7345fd7c21b45a578d3ca85be1be26920a12
+  CAHorizontalGradientLayer: 477539ff8b8164085f2c3766c94a6a5e784139ac
+  OKActiveButton: 85b3cb35be941dab0786dc62dbb1c310ff529166
 
 PODFILE CHECKSUM: e3f9581e47e0040f1562a91cf52c2bef72ac5afc
 
