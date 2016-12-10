@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OKActiveButton_Example' do
+  pod 'OKActiveButton', :path => '../'
+
+  target 'OKActiveButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
