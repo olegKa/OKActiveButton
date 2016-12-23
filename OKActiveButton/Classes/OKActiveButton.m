@@ -54,8 +54,8 @@
 
 - (void)layoutSubviews {
     [super layoutSubviews];
-    self.layer.cornerRadius = self.frame.size.height * self.cornerRadius;
-    self.activityView.layer.cornerRadius = self.frame.size.height * self.cornerRadius;
+    self.layer.cornerRadius = (self.frame.size.height * self.cornerRadius)? :self.layer.cornerRadius;
+    self.activityView.layer.cornerRadius = self.layer.cornerRadius;
     
     if (__shadow) {
         self.layer.shadowColor = [UIColor blackColor].CGColor;
